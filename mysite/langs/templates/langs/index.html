@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Language Name Database</title>
+    <style>
+        .ldb_header {color:black;}
+    </style>
 </head>
 <body>
-<h1>Language Name Database</h1>
+<!-- localize all of these labels -->
+<h1 class="ldb_header">Language Name Database</h1>
+
+<table>
+    <tr>
+       <td width="200"><p>Language to view</p></td>
+       <td>Names for this language</td>
+    </tr>
+    <tr valign="top">
+         <td><input name="choice" value=""><br></td>
+
+        <td><select Name="lang_name_box" Size="10">
+                <option>German</option>
+                <option>Deutsch</option>
+                <option>aleman</option>
+                <option>saksa</option>
+            </select></td>
+    </tr>
+</table>
+
+<hr>
+<p>Interface Language</p>
+<form>
+    <input name="interface_lang" value=""><br>
+    <button>Select</button>
+</form>
 </body>
 </html>
